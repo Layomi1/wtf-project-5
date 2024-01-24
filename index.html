@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font-icon/css/all.css" />
+  </head>
+  <body>
+    <main class="card">
+      <form class="search">
+        <input type="search" class="search-bar"  placeholder="Search"/>
+        <button>
+          <i class="fas fa-search glass"></i>
+        </button>
+      </form>
+
+      <article class="weather">
+        <h2 class="city">Weather in Denver</h2>
+        <h1 class="temp">51&deg;C</h1>
+        <div class="description">
+          <img src="https://openweathermap.org/img/wn/04n.png" alt="icon" id="icon" width="50" height="50">
+          <p id="state">Cloudy</p>
+        </div>
+        <div class="humidity">Humidity : 60%</div>
+        <div class="wind"> Wind speed : 6.2 km/h</div>
+      </article>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
